@@ -1,20 +1,20 @@
 #include <stdio.h>
 
 
-int hyojin(int a, int b)
+int hyojin(long long a, long long b)
 {
-    int result;
-    scanf("%d%d", &a, &b);
+    long long result;
+    scanf("%lld%lld", &a, &b);
     
     result = ((a + b) * (a - b));
 
-    printf("%d", result);
+    printf("%lld", result);
 }
 
 int main()
 {
-    int A = 0;
-    int B = 0;
+    long long A = 0;
+    long long B = 0;
 
     hyojin(A, B);
 
